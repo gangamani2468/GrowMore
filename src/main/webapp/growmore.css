@@ -1,0 +1,258 @@
+footer{
+    text-align: center;
+}
+
+html,body{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-color:aliceblue;
+}
+
+
+
+#header{
+    height: 13.8vh;
+    width: 100vw;
+    background-color: rgb(60,60,60);
+    display: flex;
+    justify-content: space-between;
+}
+
+#topNavDiv{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+#notify{
+    font-size: 28px;
+}
+#profileDiv{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    cursor: pointer;
+}
+h3{
+    cursor: pointer;
+    
+}
+#profileDiv{
+    font-size: 55px;
+
+}
+#container{
+    height: 80%;
+    width: 100%;
+    /* background-color: black; */
+    display: flex;
+
+}
+#watchList{
+   height: 100%;
+   width: 30%;
+   border-left:1px solid rgb(150,150,150) ;
+   border-right:1px solid rgb(150,150,150) ;
+   padding: 4px;
+   box-shadow: 0 0 5px 0 rgba(150,150,150,.1);
+   /* background-color: aqua; */
+}
+#space{
+    width: 10%;
+    height: 100%;
+}
+h2[class=watchList1]{
+    text-align: center;
+    color: rgb(80,80,80);
+}
+
+.watchList1{
+    height: 6%;
+    font-size: 20px;
+    margin-bottom: 6%;
+    border-bottom: 1px solid rgb(150,150,150);
+    display: flex;
+    justify-content:space-between;
+    cursor:pointer;
+
+}
+
+.display{
+    display: none;
+    height: 100%;
+    width: 60%;
+    margin-left:2%;
+    position: relative;
+    /* background-color: aquamarine; */
+}
+/* #dashboard{
+    display: none;
+} */
+#equity{
+    border-bottom: 1px solid rgb(150,150,150);
+}
+#holdingsPart{
+    display: flex;
+    justify-content:space-between;
+}
+#portfolio{
+    width: 40%;
+}
+#amountPart{
+    width: 40%;
+    font-size: 29px;
+    text-align: center;
+             
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+ /* #holdings{
+    display: block;
+}  */
+th{
+    border-color: rgb(128,128,128);
+}
+/* #funds{
+    display: none;
+} */
+/* #profile{
+    display: none;
+} */
+.headings{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid;
+}
+h5{
+    border: 1px solid gray;
+    height: 100%;
+    width: 18%;
+    text-align: center;
+    line-height: 5;
+   display:flex;
+    justify-content:space-around;
+}
+#notifyBox{
+	display:none;
+    position: absolute;
+    height: 81%;
+    width: 40%;
+   background:white;
+    z-index: 999;
+    top: 18.3%;
+    left: 73%;
+   
+
+}
+
+#notifyClose{
+
+   
+
+}
+
+.header:hover{
+	color:rgb(200,200,200);
+	font-size:2.5vh;
+}
+
+
+#butsDiv{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.buts{
+    height: 50%;
+    width: 45%;
+    border-radius: 7px ;
+    text-align: center;
+    line-height: 4;
+    color: white;
+    font-size: large;
+    cursor: pointer;
+}
+
+#sellBut{
+    background-color: red;
+}
+#buyBut{
+    background-color: green;
+}
+
+#sellBut:hover{
+    background-color: rgb(255, 85, 85);
+}
+
+#buyBut:hover{
+    background-color: rgb(6, 221, 6);
+}
+#buyPage{
+    height: 27vh;
+    width: 31vh;
+    font-size:30px;
+    background-color: rgb(218,240,213);
+    position: absolute;
+    top: 40%;
+    left: 79%;
+    display: none;
+}
+#sellPage{
+   display: none;
+    height: 27vh;
+    width: 31vh;
+    background-color: rgb(247,214,221);
+    position: absolute;
+    top: 40%;
+    left: 79%;
+    
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+#bankDisplay{
+	display:none;
+}
+.profileDetails{
+	display:flex;
+	justify-content:space-between;
+	width:58%;
+	font-size:30px;
+    line-height: 73px;
+}
+#howMuch{
+	height: 61px;
+    width: 381px;
+}
+.stockUpdate{
+	height:8%;
+	border:1px solid gray;
+	display: flex;
+    align-items: center;
+ 
+	
+}

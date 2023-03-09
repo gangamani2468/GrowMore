@@ -1,0 +1,71 @@
+
+body{
+    margin: 0;
+    overflow: hidden;
+}
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+#wholeContainer{
+    height: 100vh;
+    width: 180vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 3vh;
+    background-color: aliceblue;
+}
+#loginContainer{
+    height: 90vh;
+    width: 30vw;
+    border: 2px solid grey;
+    border-radius: 1vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.5vh;
+    flex-direction: column;
+}
+#marryDiv{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+#genderDiv{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+input{
+    height: 3vh;
+    width: 17vw;
+}
+
+.radio{
+    height: 2vh;
+    width: 2vw;
+}
+
+#loginBut{
+    height: 4vh;
+    width: 15vw;
+    background-color: rgb(255,87,34);
+    border-radius: .4vh;
+    color: white;
+    text-align: center;
+    font-size: 2.5vh;
+    padding-top: 1.5vh;
+    cursor: pointer;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+-webkit-scrollbar{
+    display: none;
+}

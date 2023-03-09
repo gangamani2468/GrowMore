@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link id="css" href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<script src="script.js"></script>
+
+    
+    <div id="wholeContainer">
+        <h1>GROW MORE</h1>
+        <div id="chart"></div>
+        <div id="loginContainer">
+            <h1>Login</h1>
+            <div>
+                <span>Phone Number</span><br>
+                <input type="number" id="userId" onfocusout="numberCheck(this)" required>
+            </div>
+
+            <div>
+                <span>Password</span><br>
+                <input type="password" id="userPass" required><br><br>
+                 <input style="height: 2vh;width: 1vw;" type="checkbox" id="check" onclick="showPass()" >Show Password
+            </div>
+            
+            
+            <div id="loginBut" onclick="login()">Login</div>
+            <div style="cursor: pointer;"><span style="color: gray;">Don't have an account? </span><span style="color: blue;" onclick="signUpPage()">SignUp</span></div>            
+           
+        </div>
+        <div id="successMsg"></div>
+    </div>
+
+    <script>
+  //
+        var check="password";
+        function showPass(){
+            let checking = document.getElementById("check");
+            console.log(checking==true);
+            if(check == "password"){
+                userPass.type = 'text'
+                check="";
+            }
+            else{
+                userPass.type = 'password';
+                check="password";
+            }
+        }
+
+    </script>
+</body>
+</html>
