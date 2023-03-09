@@ -25,7 +25,7 @@ public class OtpGenerateJava {
 	          HttpURLConnection con = (HttpURLConnection) url.openConnection();
 	          con.setRequestMethod("POST");
 	          con.setRequestProperty("Content-Type", "application/json");
-	          con.setRequestProperty("api-key", "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");
+	          con.setRequestProperty("api-key", "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
 	          con.setDoOutput(true);
 	          otpCode=generateOTP();
 	          
